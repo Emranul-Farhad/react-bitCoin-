@@ -1,0 +1,19 @@
+.sp{
+    margin: 65px;
+    background :#ddd;
+    height: 2px;
+    display: block;
+    position: relative;
+}
+
+.sp::before{
+    content: "";
+    position: absolute;
+    background: #84D1F1;
+    height: 0.1rem;
+    width: 10rem;
+    margin: auto;
+    left: 0;
+    right: 0;
+
+}
